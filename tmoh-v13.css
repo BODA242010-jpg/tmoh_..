@@ -1,0 +1,66 @@
+/* Tmoh V13 — dark-first accessibility and multilingual controls.
+   CSS only; no saved student information or chatbot configuration touched. */
+:root{color-scheme:dark}
+body.dark{--bg:#0d1429;--card:#19233b;--text:#eef3ff;--muted:#b4c0da;--line:#394563;--pale:#273551;--blue:#879bff;--violet:#aa92fb;--shadow:0 14px 32px #06091d44;color:var(--text);background:var(--bg)}
+body.dark main,body.dark #content{background:var(--bg);color:var(--text)}
+body.dark aside{background:#121b31;color:#eaf0ff;border-color:#2b3856}
+body.dark header{background:#19223ae8;color:#eaf0ff;border-bottom:1px solid #34405f}
+body.dark .card,body.dark .stat,body.dark .tm-study-unit,body.dark .tm-study-article .card{background:#19243c;color:#ecf1ff;border-color:#3c4864}
+body.dark .soft,body.dark .logout,body.dark nav button{color:#e5edff;background:#26334f;border-color:#425170}
+body.dark .soft:hover,body.dark nav button:hover{background:#344768}
+body.dark .primary{color:#fff;background:linear-gradient(118deg,#6a68d9,#596deb)}
+body.dark input,body.dark select,body.dark textarea{background:#131f38;color:#f4f6ff;border:1px solid #465472}
+body.dark input::placeholder,body.dark textarea::placeholder{color:#acb6d1;opacity:1}
+body.dark input:focus-visible,body.dark select:focus-visible,body.dark textarea:focus-visible,body.dark button:focus-visible{outline:3px solid #b4aaff;outline-offset:2px}
+body.dark .tag{background:#273b57;color:#dbeaff}
+body.dark .warn{background:#413318;color:#ffe6ac;border:1px solid #8a6626}
+body.dark .empty,body.dark .muted,body.dark small{color:#bdc7dc}
+body.dark a{color:#bbcaff}
+body.dark a.primary{color:#fff}
+body.dark #auth .authform{--bg:#101b32;--card:#1b2841;--text:#f2f5ff;--muted:#b8c4df;--pale:#2e3958;--line:#465273;--blue:#9ba6ff;background:linear-gradient(135deg,#1b2949ef,#20213ff0);border:1px solid #a9b7ee4a;color:#f5f8ff;box-shadow:0 25px 85px #06071ecc,0 0 0 1px #a6bafa12;backdrop-filter:blur(22px)}
+body.dark #auth .authform h2{color:#f8f9ff}
+body.dark #auth .authform input,body.dark #auth .authform select,body.dark #auth .authform textarea{background:#101b34;color:#fff;border:1px solid #526286}
+body.dark #auth .authform label,body.dark #auth .authform .muted,body.dark #auth .authform .tiny,body.dark #auth .authform small{color:#c9d3e8}
+body.dark #auth .authform .soft,body.dark #auth .authform .dream{background:#2d3957;color:#eff4ff;border:1px solid #647397}
+body.dark #auth .authform .soft:hover,body.dark #auth .authform .dream:hover{background:#45547a}
+body.dark #auth .authform .dream.selected{border-color:#9f9eff;background:#413d71}
+body.dark #auth .authform .primary{background:linear-gradient(115deg,#7771e8,#5674df);color:#fff}
+body.dark #auth .authform a,body.dark #auth .authform .link{color:#bdcaff}
+body.dark .tmoh-inst-modal{background:#1d2943;color:#f1f5ff;border:1px solid #465472}
+body.dark .tmoh-inst-modal h2{color:#f5f7ff}
+body.dark .tmoh-inst-modal p,body.dark .tmoh-inst-modal .tmoh-inst-note{color:#c7d1e7}
+body.dark .tmoh-inst-guide{background:#111d35;color:#edf4ff;border-color:#425371}
+body.dark .tmoh-inst-hero{background:#344165;color:#fff}
+body.dark .tmoh-inst-close{color:#f6f7fc}
+/* Language switcher: same controls on welcome and within the installed application */
+.tmoh-lang{display:flex;align-items:center;justify-content:center;gap:8px;color:#e7edff;font:700 12px Cairo,Tahoma,Arial,sans-serif;white-space:nowrap}
+.tmoh-lang select{appearance:auto;color:#f1f5ff!important;background:#182742ee!important;border:1px solid #60749a!important;border-radius:10px;padding:9px 10px;font-size:12px;font-family:inherit;min-width:105px;max-width:135px;cursor:pointer}
+.tmoh-lang select option{color:#f1f5ff;background:#182742}
+.tmoh-lang-login{position:absolute;top:18px;left:23px;z-index:9;padding:5px 8px;background:#0f19388f;border:1px solid #5d75a766;border-radius:14px}
+.tmoh-lang-header{margin-inline-start:auto}
+#auth .tmoh-lang-label{color:#e6edff}
+#logout{font-weight:800;border:1px solid #52678f;background:#273652}
+#logout:hover{background:#3f426d}
+/* Do not invert a user's original educational images, badges, or cloud/portal effects. */
+html[dir="ltr"] body{direction:ltr}
+html[dir="ltr"] .authform,html[dir="ltr"] .tmoh-inst-guide{text-align:left}
+html[dir="ltr"] #auth .art{text-align:left}
+html[dir="ltr"] aside{text-align:left;border-left:0;border-right:1px solid var(--line)}
+html[dir="ltr"] nav button{text-align:left}
+html[dir="ltr"] #auth .tmoh-lang-login{right:23px;left:auto}
+html[dir="ltr"] .tmoh-inst-close{left:auto;right:13px}
+html[dir="ltr"] .tmoh-inst-guide ol{padding-right:0;padding-left:18px}
+@media(max-width:680px){
+ .tmoh-lang-header{min-width:0;margin-inline-start:0}
+ .tmoh-lang-header select{min-width:76px;max-width:95px;font-size:10px;padding:8px 4px}
+ header input{flex:1;min-width:45px;width:45px}
+ #tmohInstallHeader{font-size:10px;white-space:nowrap}
+ .tmoh-lang-login{top:6px;left:8px;gap:4px;padding:4px}
+ .tmoh-lang-login select{min-width:85px;font-size:11px;padding:7px 4px}
+ #auth .authform{margin-top:22px}
+ html[dir="ltr"] aside{right:auto;left:0;transform:translateX(-110%);box-shadow:10px 0 30px #0006}
+ html[dir="ltr"] aside.open{transform:translateX(0)}
+ html[dir="ltr"] #auth .tmoh-lang-login{right:8px;left:auto}
+}
+@media(max-width:390px){header{gap:5px}#tmohInstallHeader{padding:7px 5px!important}.tmoh-lang-header select{min-width:70px;max-width:80px}}
+@media(prefers-reduced-motion:reduce){body.dark *,body.dark *::before,body.dark *::after{scroll-behavior:auto!important}}

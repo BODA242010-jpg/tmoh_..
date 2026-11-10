@@ -1,0 +1,18 @@
+/* Tmoh V17: public schoolbook shelves */
+.tpb-shared,.tpb-notice{border:1px solid #6a62af70;background:#242b47;color:#eef2ff;margin:15px 0}
+.tpb-shared h3,.tpb-notice b{color:#c5b1ff}.tpb-shared p,.tpb-notice p,.tpb-notice small{color:#c8d0e9}
+.tpb-header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:12px;flex-wrap:wrap}
+.tpb-header h3{margin:0}.tpb-header p{margin:4px 0;font-size:.92em}.tpb-count{background:#584ba6;color:#fff;border-radius:40px;padding:6px 12px;white-space:nowrap}
+.tpb-row{display:flex;gap:12px;align-items:center;padding:12px 4px;border-top:1px solid #62709a55;flex-wrap:wrap}
+.tpb-row>span{font-size:27px}.tpb-row>div{flex:1;min-width:140px;display:grid;gap:5px}.tpb-row strong{color:#fff}.tpb-row small{color:#cdd4e8}.tpb-empty{margin:8px 0 0}
+.tpb-reader{max-width:1100px;margin:0 auto;color:#eef2ff}.tpb-reader-head{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.tpb-reader-head h2{margin:0 0 4px;font-size:clamp(1.15rem,3vw,1.7rem)}
+.tpb-reader-head p,.tpb-help{color:#bcc6df}.tpb-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.tpb-controls label{display:flex;gap:8px;align-items:center}.tpb-controls input{max-width:90px;padding:9px}.tpb-controls a{display:inline-block;padding:10px 14px;text-decoration:none}
+.tpb-frame{width:100%;min-height:75vh;border:1px solid #44516c;border-radius:13px;background:#fff;display:block;margin-top:12px}
+@media(max-width:640px){.tpb-row button{width:100%}.tpb-reader-head{align-items:flex-start}.tpb-frame{min-height:66vh}.tpb-controls label{width:100%}}
+/* V18 — discover missing books transparently, without fake PDF previews. */
+.tpb-sources{margin:14px 0;padding:16px;background:linear-gradient(130deg,#273653,#20283e);border:1px solid #637da775;color:#eff5ff}
+.tpb-sources b{color:#c8bbff}.tpb-sources p,.tpb-sources small{color:#d4ddef;line-height:1.8}
+.tpb-source-links{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0}
+.tpb-source-links a{display:inline-flex;text-decoration:none;align-items:center;justify-content:center;padding:11px 14px;border-radius:12px;min-height:42px}
+.tpb-source-links .primary{background:#7765d9;color:white}.tpb-source-links .soft{background:#ffffff16;color:white;border:1px solid #ffffff26}
+@media(max-width:580px){.tpb-source-links a{width:100%}}

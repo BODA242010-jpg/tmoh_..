@@ -1,0 +1,17 @@
+/* Tmoh V12: lightweight install experience; does not change existing pages/data. */
+#tmohInstallHeader{white-space:nowrap;font-size:12px}
+#auth #tmohInstallLogin{position:absolute;bottom:68px;left:20px;z-index:6;border:1px solid #e7eafd66;background:#ffffff1d;color:#fff;border-radius:999px;padding:10px 17px;font:700 12px Cairo,Tahoma,sans-serif;cursor:pointer;backdrop-filter:blur(10px);box-shadow:0 4px 18px #070d2352}
+#auth #tmohInstallLogin:hover{background:#ffffff36}
+.tmoh-inst-backdrop[hidden]{display:none!important}
+.tmoh-inst-backdrop{position:fixed;inset:0;background:#080e2bbd;backdrop-filter:blur(8px);z-index:2147483000;display:grid;place-items:center;padding:16px;overflow:auto}
+.tmoh-inst-modal{position:relative;max-height:min(92dvh,780px);overflow-y:auto;box-sizing:border-box;width:min(100%,465px);color:#202b4d;background:#fff;border-radius:24px;padding:26px 25px;box-shadow:0 24px 85px #0006;text-align:center;font-family:Cairo,Tahoma,sans-serif;direction:rtl}
+.tmoh-inst-hero{width:64px;height:64px;border-radius:20px;display:grid;place-items:center;margin:4px auto 12px;background:#eceaff;font-size:33px}
+.tmoh-inst-modal h2{font-size:23px;margin:4px 0 8px;line-height:1.5;color:#212e60}
+.tmoh-inst-modal p{font-size:13px;line-height:1.9;color:#656f87}
+.tmoh-inst-close{position:absolute;top:10px;left:13px;border:0;background:transparent;color:#54607a;cursor:pointer;font-size:30px;padding:0 10px}
+.tmoh-inst-guide{text-align:right;border:1px solid #e0e5f5;border-radius:14px;padding:14px 18px;background:#f6f8ff;color:#394567;font-size:13px;line-height:2.2}
+.tmoh-inst-guide ol{margin:0;padding-right:18px}.tmoh-inst-guide li{padding-bottom:2px}
+.tmoh-inst-actions{display:flex;gap:9px;margin-top:17px}.tmoh-inst-actions button{flex:1;min-width:0;cursor:pointer}
+.tmoh-inst-modal .tmoh-inst-note{font-size:11px;color:#707b99;margin:14px 0 0}
+@media(max-width:640px){#auth #tmohInstallLogin{left:12px;bottom:48px;font-size:11px;padding:8px 11px}#tmohInstallHeader{padding:7px;font-size:10px}.tmoh-inst-modal{padding:22px 17px}}
+@media(prefers-reduced-motion:reduce){.tmoh-inst-backdrop,.tmoh-inst-modal{animation:none!important;transition:none!important}}

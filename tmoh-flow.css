@@ -1,0 +1,48 @@
+/* Tmoh V10: compact, accessible workflow / grouped sidebar. */
+#nav{display:block;overflow-y:auto;scrollbar-width:thin;padding-inline:2px}
+#nav .tf-home-link{display:block;width:100%;font-size:14px;text-align:right;padding:12px 13px;margin-bottom:8px;font-weight:800;background:var(--pale);color:var(--text)}
+#nav .tf-nav-section{border-radius:13px;margin:5px 0;border:1px solid transparent}
+#nav .tf-nav-section.tf-current{border-color:var(--line);background:var(--pale)}
+#nav .tf-nav-section summary{cursor:pointer;list-style:none;padding:12px 11px;font-size:13px;font-weight:800;color:var(--text);user-select:none}
+#nav .tf-nav-section summary::-webkit-details-marker{display:none}
+#nav .tf-nav-section summary:after{content:'⌄';float:left;color:var(--muted);font-size:14px;transition:transform .2s}
+#nav .tf-nav-section[open] summary:after{transform:rotate(180deg)}
+#nav .tf-nav-items{display:grid;gap:2px;padding:0 7px 9px}
+#nav .tf-nav-items button{width:100%;font-size:12px;line-height:1.55;text-align:right;padding:9px 12px}
+#nav .tf-nav-items button.active{font-weight:900}
+.tf-journey-card{background:linear-gradient(125deg,#f0eeff,#e6f6ff);color:#283257;border:1px solid #dfdcfb;border-radius:19px;padding:19px 22px;margin-bottom:18px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+body.dark .tf-journey-card{background:linear-gradient(120deg,#243759,#30284d);color:#eae8ff;border-color:#48516f}
+.tf-journey-card h2{font-size:20px;margin:5px 0}
+.tf-journey-card p{font-size:13px;margin:0 0 11px;opacity:.9}
+.tf-eyebrow{font-size:12px;font-weight:800;opacity:.85}
+.tf-journey-action{flex:0 0 auto}
+.tf-mini-steps{display:flex;flex-wrap:wrap;gap:7px}
+.tf-mini-steps span{font-size:11px;border:1px solid #c6c5e7;border-radius:22px;padding:5px 8px;opacity:.65;white-space:nowrap}
+.tf-mini-steps .current{opacity:1;font-weight:900;background:#d9d4ff;color:#302b75;border-color:#b0a7eb}
+.tf-inline-guide{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:12px 15px;border:1px solid var(--line);background:var(--pale);border-radius:14px;font-size:13px;line-height:1.65;margin-bottom:15px}
+.tf-inline-guide button{margin-inline-start:auto}
+.tf-rest{text-align:center;margin-bottom:15px;max-width:900px;margin-inline:auto}
+.tf-rest h2{font-size:23px;margin:8px auto}
+.tf-rest-emoji{font-size:56px;animation:tf-breathe 4s infinite}
+.tf-break-time{font-size:clamp(40px,8vw,72px);font-weight:900;font-variant-numeric:tabular-nums;margin:16px 0 7px;letter-spacing:1px}
+.tf-rest-progress{height:12px;background:var(--pale);border-radius:50px;overflow:hidden;max-width:650px;margin:10px auto 18px}
+.tf-rest-progress span{height:100%;display:block;background:linear-gradient(90deg,#6a7fe9,#47b0ad);transition:width .25s}
+.tf-rest-choices{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:center;margin:18px 0}
+.tf-rest-choices span{font-weight:700;font-size:13px}
+.tf-next,.tf-feelings{margin:16px auto;max-width:900px}
+.tf-feelings{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.tf-feelings h3{margin:0 0 14px}
+.tf-feelings small{color:var(--muted);font-size:11px}
+.tf-actions{display:flex;flex-wrap:wrap;align-items:center;gap:9px}
+.tf-actions button{white-space:normal;line-height:1.55}
+.tf-context-links{margin:18px 0;padding:12px 16px;border:1px dashed var(--line);border-radius:15px}
+.tf-context-links p{font-size:12px;color:var(--muted);margin:0 0 9px}
+.tf-backdrop{position:fixed;inset:0;z-index:100;background:#111d40ae;display:grid;place-items:center;padding:16px;backdrop-filter:blur(5px)}
+.tf-reminder{background:var(--card);color:var(--text);border-radius:22px;padding:26px 23px;max-width:460px;width:100%;box-shadow:0 22px 60px #0004;text-align:center}
+.tf-reminder h2{font-size:23px;margin:8px 0 12px}
+.tf-reminder p{line-height:1.8;font-size:14px}
+.tf-reminder .tf-actions{justify-content:center;margin-top:18px}
+.tf-breath{font-size:62px;animation:tf-breathe 3.5s ease-in-out infinite}
+@keyframes tf-breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(max-width:680px){.tf-journey-card{display:block;padding:16px}.tf-journey-action{margin-top:12px}.tf-journey-action button{width:100%}.tf-rest h2{font-size:20px}.tf-actions button{flex:1 1 135px}.tf-reminder{padding:20px 15px}.tf-mini-steps span{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.tf-breath,.tf-rest-emoji{animation:none}}

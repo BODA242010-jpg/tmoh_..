@@ -1,0 +1,24 @@
+/* Tmoh V9: focused local-first features and accessible motion */
+.tm9-personal,.tm9-move,.tm9-desk,.tm9-health{margin:18px 0}
+.tm9-emoji{text-align:center;font-size:4rem;margin:10px auto 18px}
+.tm9-progress{background:#e5e5fb;border-radius:30px;overflow:hidden;height:13px;margin:16px 0}
+.tm9-progress span{display:block;height:100%;background:linear-gradient(100deg,#7a62dc,#3f86dc);transition:width .3s}
+.tm9-photo-form{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:16px 0}
+.tm9-photo-form label{flex:1;min-width:200px}
+.tm9-photo-form input{max-width:100%;display:block;margin-top:8px}
+.tm9-photo-list{display:grid;gap:9px;margin:14px 0}
+.tm9-photo{display:flex;gap:10px;align-items:center;justify-content:space-between;border:1px solid var(--line,#dddded);border-radius:12px;padding:9px;flex-wrap:wrap}
+.tm9-photo-commands{display:flex;gap:8px}
+.tm9-photo-preview{margin:16px 0;padding:8px;border:1px solid #c6bde6;border-radius:12px}
+.tm9-photo-preview[hidden]{display:none}
+.tm9-photo-preview img{display:block;max-width:100%;max-height:380px;object-fit:contain;margin:auto;border-radius:8px}
+.tm9-move{text-align:center}
+.tm9-move-figure{font-size:5rem;animation:tm9-breathe 3s ease-in-out infinite;line-height:1.8}
+.tm9-move-clock{font-size:2rem;font-variant-numeric:tabular-nums;font-weight:800;margin:15px 0}
+.tm9-move .btnrow{justify-content:center}
+.tm9-health p{line-height:1.8}
+#tm9HealthResult{margin-top:16px;border-top:1px solid var(--line,#ddd);padding-top:14px}
+#tm9HealthResult:empty{display:none}
+@keyframes tm9-breathe{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.04)}}
+@media(max-width:600px){.tm9-photo-commands{width:100%;justify-content:flex-start}.tm9-move-figure{font-size:4rem}.tm9-photo-form{display:block}.tm9-photo-form button{margin-top:10px}}
+@media(prefers-reduced-motion:reduce){.tm9-move-figure{animation:none}.tm9-progress span{transition:none}}

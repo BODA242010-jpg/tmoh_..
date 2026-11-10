@@ -1,0 +1,113 @@
+/* Tmoh V11 — dream-world login, replacing only the visual layer. */
+#auth.auth{
+  --login-accent:#aaa6ff;
+  position:relative;isolation:isolate;overflow:hidden;
+  min-height:100dvh;grid-template-columns:minmax(0,1fr) minmax(340px,460px);
+  gap:clamp(18px,4vw,75px);
+  padding:clamp(22px,5vw,68px) clamp(24px,5vw,75px) 70px;
+  background:radial-gradient(ellipse at 15% 10%,#45448b 0,transparent 45%),
+             radial-gradient(ellipse at 85% 80%,#255d83 0,transparent 44%),
+             linear-gradient(132deg,#090e30,#191746 54%,#253365);
+  color:#fff;
+}
+#auth .tmoh-login-atmosphere,#auth .tmoh-auth-clouds{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+#auth .tmoh-aura{position:absolute;border-radius:50%;filter:blur(42px);opacity:.36;animation:tmoh-aura-breathe 8s ease-in-out infinite alternate}
+#auth .tmoh-aura-one{width:390px;height:390px;top:-160px;right:-70px;background:#9a77fc}
+#auth .tmoh-aura-two{width:330px;height:330px;bottom:-150px;left:12%;background:#65d2e3;animation-delay:-3s}
+#auth .tmoh-login-orbit{position:absolute;width:min(42vw,470px);aspect-ratio:1;border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-20deg);border:1px solid #b7d9ff36;box-shadow:0 0 70px #8fb9fa25,inset 0 0 50px #8391e71b;opacity:.6}
+#auth .tmoh-login-orbit-two{width:min(57vw,620px);transform:translate(-50%,-50%) rotate(35deg);border-color:#9f9ae227}
+#auth .tmoh-night-stars{position:absolute;inset:0;opacity:.6;background-image:radial-gradient(2px 2px at 8% 18%,#fff 98%,transparent),radial-gradient(2px 2px at 36% 11%,#fff 98%,transparent),radial-gradient(2px 2px at 68% 17%,#fff 98%,transparent),radial-gradient(2px 2px at 91% 29%,#fff 98%,transparent),radial-gradient(2px 2px at 15% 72%,#fff 98%,transparent),radial-gradient(2px 2px at 52% 78%,#fff 98%,transparent),radial-gradient(2px 2px at 86% 88%,#fff 98%,transparent);animation:tmoh-star-twinkle 4.8s ease-in-out infinite alternate}
+#auth .art{position:relative;z-index:2;display:flex;min-height:0;padding:0;background:none!important;overflow:visible;box-shadow:none;flex-direction:column;justify-content:space-between}
+#auth .art:before{display:none}
+#auth .art .logo{font-size:clamp(25px,3.1vw,35px);color:#f6f5ff!important;text-shadow:0 0 30px #7b90f985}
+#auth .art .logo b{color:#ced7fa;font-size:13px}
+#auth .tmoh-auth-copy{margin-block:auto;padding:16px 0}
+#auth .tmoh-auth-kicker{color:#c9d1ff;font-size:13px;font-weight:800;letter-spacing:.1px}
+#auth .tmoh-auth-copy h1{font-weight:900;letter-spacing:-.8px;font-size:clamp(32px,4.4vw,57px);line-height:1.45;margin:14px 0 13px}
+#auth .tmoh-auth-copy h1 em{font-style:normal;background:linear-gradient(110deg,#a9f9eb 5%,#f5e4ae 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+#auth .tmoh-auth-copy p{max-width:510px;font-size:clamp(13px,1.4vw,16px);line-height:2;color:#dde4ff;margin:0 0 16px}
+#auth .tmoh-auth-features{display:flex;flex-wrap:wrap;gap:8px}
+#auth .tmoh-auth-features span{border:1px solid #e5eeff2b;background:#e8eeff16;color:#e7ecff;padding:7px 11px;border-radius:99px;font-size:12px}
+#auth .tmoh-auth-bottom{font-weight:600;font-size:12px;color:#b2c2ec;margin:0}
+#auth .authform{
+  --bg:#f7f7ff;--card:#fff;--text:#242b52;--muted:#777f9d;--pale:#f0f1ff;--line:#e4e6f6;--blue:#5c50d5;
+  position:relative;z-index:3;align-self:center;width:100%;min-width:0;
+  max-height:calc(100dvh - 115px);overflow-y:auto;overscroll-behavior:contain;
+  padding:clamp(18px,2.8vw,34px);margin:0;
+  color:var(--text);background:#fffffff0;border:1px solid #ffffffb8;
+  border-radius:25px;box-shadow:0 32px 95px #060b2e95,0 8px 40px #7379d12b;
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)
+}
+#auth .authform h2{font-size:clamp(23px,2.5vw,30px);line-height:1.5;color:#252d55}
+#auth .authform input,#auth .authform textarea,#auth .authform select{background:#f9f9ff;color:#252d55;border:1px solid #dfe2f5}
+#auth .authform input:focus-visible,#auth .authform select:focus-visible,#auth .authform button:focus-visible{outline:3px solid #a79df9;outline-offset:2px}
+#auth .authform .primary{background:linear-gradient(120deg,#715cda,#465bd2);color:white;box-shadow:0 9px 24px #6760d749}
+#auth .authform .soft{background:#f0f0ff;color:#4f4ebd}
+#auth .authform .muted,#auth .authform .tiny,#auth .authform small{color:#77819d}
+#auth .authform .dreams{max-height:none}
+#auth .tmoh-mobile-intro{display:none}
+#auth .tmoh-credits-auth{z-index:4;bottom:13px;left:10px;right:10px;color:#e8ebff;font-size:11px}
+#auth .tmoh-credits-auth span{background:#ffffff16!important;border:1px solid #ffffff3c!important;color:#e7ecff!important;backdrop-filter:blur(7px)}
+#auth .tmoh-credits-auth b{color:#d8f3ff}
+#auth .tmoh-deco-cloud,#auth .tmoh-portal-cloud{position:absolute;display:block;width:190px;height:64px;background:linear-gradient(180deg,#f4faffdd,#a5bde477);border-radius:99px;box-shadow:0 14px 43px #6b90d84f;filter:blur(5px)}
+#auth .tmoh-deco-cloud:before,#auth .tmoh-deco-cloud:after,.tmoh-portal-cloud:before,.tmoh-portal-cloud:after{content:"";position:absolute;display:block;border-radius:100%;background:inherit}
+#auth .tmoh-deco-cloud:before,.tmoh-portal-cloud:before{height:90px;width:90px;bottom:8px;left:27px}
+#auth .tmoh-deco-cloud:after,.tmoh-portal-cloud:after{height:110px;width:110px;bottom:7px;right:20px}
+#auth .tmoh-deco-cloud.c1{left:-100px;top:8%;opacity:.48;animation:tmoh-cloud-sail 11s ease-in-out infinite alternate}
+#auth .tmoh-deco-cloud.c2{right:-120px;top:23%;opacity:.42;animation:tmoh-cloud-sail 13s ease-in-out infinite alternate-reverse;scale:.84}
+#auth .tmoh-deco-cloud.c3{bottom:5%;left:-50px;opacity:.4;animation:tmoh-cloud-sail 9s ease-in-out infinite alternate;scale:.75}
+#auth .tmoh-deco-cloud.c4{right:-85px;bottom:8%;opacity:.38;animation:tmoh-cloud-sail 12s ease-in-out infinite alternate-reverse;scale:.78}
+@keyframes tmoh-cloud-sail{to{translate:55px -14px}}
+@keyframes tmoh-aura-breathe{to{transform:translate(24px,24px) scale(1.18);opacity:.57}}
+@keyframes tmoh-star-twinkle{to{opacity:.27}}
+
+/* Successful login: clouds pull toward a luminous portal, revealing the real app. */
+.tmoh-sky-portal{position:fixed;inset:0;overflow:hidden;isolation:isolate;z-index:9998;pointer-events:none;background:radial-gradient(ellipse at center,#29316a 0,#171d50 55%,#070c2a 100%);animation:tmoh-login-scene 1.95s ease-in-out both}
+.tmoh-portal-space{position:absolute;inset:-10%;background:radial-gradient(circle at 50% 48%,#baf6ffe8 0,#8495fba4 18%,#435fd077 42%,transparent 74%);animation:tmoh-login-space 1.95s ease-in both}
+.tmoh-portal-halo{position:absolute;top:50%;left:50%;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,#ffffff,#b2f3ff 35%,#a3a2ff66 65%,transparent 76%);box-shadow:0 0 130px 30px #b9e7ff70;animation:tmoh-login-halo 1.95s ease-in both}
+.tmoh-portal-ring{position:absolute;top:50%;left:50%;width:min(47vw,370px);aspect-ratio:1;border-radius:50%;border:3px solid #a9d6ff99;box-shadow:0 0 39px #98bfffb8,inset 0 0 45px #9ce4fa57;animation:tmoh-login-ring 1.95s ease-in both}
+.tmoh-portal-ring.ring-b{width:min(65vw,520px);animation-direction:normal;animation-delay:.07s;border-color:#c6c0ff70}
+.tmoh-portal-cloud{position:absolute;display:block;width:270px;height:95px;border-radius:99px;background:linear-gradient(180deg,#fff,#c9d8f3e8);filter:drop-shadow(0 15px 25px #5c79ce94);opacity:0;animation:tmoh-login-cloud 1.95s cubic-bezier(.17,.66,.18,1) both}
+.tmoh-portal-cloud:before{width:138px;height:132px;left:33px;bottom:12px}.tmoh-portal-cloud:after{width:166px;height:151px;right:25px;bottom:12px}
+.tmoh-portal-cloud.one{top:9%;left:-5%;--from-x:-55vw;--from-y:-26vh;--to-x:54vw;--to-y:41vh;--twist:-13deg}
+.tmoh-portal-cloud.two{top:6%;right:-4%;--from-x:55vw;--from-y:-30vh;--to-x:-54vw;--to-y:44vh;--twist:14deg}
+.tmoh-portal-cloud.three{top:38%;left:-10%;--from-x:-54vw;--from-y:0vh;--to-x:55vw;--to-y:12vh;--twist:7deg}
+.tmoh-portal-cloud.four{top:42%;right:-10%;--from-x:54vw;--from-y:0vh;--to-x:-55vw;--to-y:8vh;--twist:-7deg}
+.tmoh-portal-cloud.five{bottom:4%;left:4%;--from-x:-41vw;--from-y:26vh;--to-x:40vw;--to-y:-40vh;--twist:12deg}
+.tmoh-portal-cloud.six{bottom:4%;right:4%;--from-x:41vw;--from-y:26vh;--to-x:-40vw;--to-y:-40vh;--twist:-12deg}
+.tmoh-portal-center{position:absolute;top:50%;left:50%;display:flex;flex-direction:column;align-items:center;gap:4px;color:white;text-shadow:0 0 30px #929afc;white-space:nowrap;animation:tmoh-login-label 1.95s ease-in both}
+.tmoh-portal-center strong{font-size:clamp(30px,6vw,55px)}.tmoh-portal-center small{color:#fff;font-size:15px}
+.tmoh-portal-symbol{font-size:40px;color:#defdfb}
+.tmoh-portal-flash{position:absolute;inset:0;background:#e9f9ff;opacity:0;animation:tmoh-login-flash 1.95s ease-in both}
+body.tmoh-entering #app{animation:tmoh-app-arrive 1.95s ease-out both}
+@keyframes tmoh-login-scene{0%{opacity:0}14%,66%{opacity:1}84%{opacity:.87}100%{opacity:0;visibility:hidden}}
+@keyframes tmoh-login-space{0%{transform:scale(1.2);opacity:.25}50%{opacity:1}100%{transform:scale(3);opacity:0}}
+@keyframes tmoh-login-ring{0%{transform:translate(-50%,-50%) scale(.45) rotate(0);opacity:0}32%{opacity:1}70%{transform:translate(-50%,-50%) scale(2) rotate(75deg);opacity:.95}100%{transform:translate(-50%,-50%) scale(4) rotate(130deg);opacity:0}}
+@keyframes tmoh-login-halo{0%{transform:translate(-50%,-50%) scale(.35);opacity:.35}45%{opacity:1}75%{transform:translate(-50%,-50%) scale(2.6);opacity:.9}100%{transform:translate(-50%,-50%) scale(8);opacity:0}}
+@keyframes tmoh-login-cloud{0%{transform:translate(var(--from-x),var(--from-y)) scale(1.75) rotate(var(--twist));opacity:0}12%{opacity:.95}52%{opacity:1}79%{transform:translate(var(--to-x),var(--to-y)) scale(.13) rotate(0);opacity:.42}100%{transform:translate(var(--to-x),var(--to-y)) scale(.01);opacity:0}}
+@keyframes tmoh-login-label{0%,15%{transform:translate(-50%,-40%) scale(.75);opacity:0}35%,65%{transform:translate(-50%,-50%) scale(1);opacity:1}88%,100%{transform:translate(-50%,-50%) scale(1.5);opacity:0}}
+@keyframes tmoh-login-flash{0%,65%,100%{opacity:0}78%{opacity:.68}90%{opacity:0}}
+@keyframes tmoh-app-arrive{0%{transform:scale(1.08);opacity:.62}85%,100%{transform:scale(1);opacity:1}}
+@media(max-width:900px){#auth.auth{grid-template-columns:minmax(0,1fr) minmax(310px,430px);gap:20px;padding-inline:25px}#auth .tmoh-auth-copy h1{font-size:35px}}
+@media(max-width:680px){
+ #auth.auth{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:13px;overflow-y:auto;min-height:100dvh;height:auto;padding:24px 14px 24px}
+ #auth .art{display:none}
+ #auth .tmoh-mobile-intro{position:relative;z-index:2;display:block;text-align:center;margin:8px auto 4px;color:#fff}
+ #auth .tmoh-mobile-intro strong{font-size:29px;letter-spacing:.2px}
+ #auth .tmoh-mobile-intro small{font-size:13px;color:#c8d8f9}
+ #auth .tmoh-mobile-intro p{font-size:14px;color:#d5deff;margin:5px 0 0}
+ #auth .authform{width:min(100%,485px);margin:0 auto;align-self:center;max-height:none;overflow:visible;padding:21px 18px;border-radius:23px}
+ #auth .tmoh-credits-auth{position:relative;inset:auto;display:flex;align-items:center;justify-content:center;width:100%;margin:4px auto 0;padding-bottom:12px;font-size:10px}
+ #auth .tmoh-credits-auth span{padding:4px 8px}
+ #auth .tmoh-login-orbit{width:74vw}#auth .tmoh-login-orbit-two{width:110vw}
+ .tmoh-portal-ring{width:65vw}.tmoh-portal-ring.ring-b{width:88vw}.tmoh-portal-cloud{width:200px;height:68px}.tmoh-portal-cloud:before{width:100px;height:102px}.tmoh-portal-cloud:after{width:110px;height:107px}
+}
+@media(prefers-reduced-motion:reduce){#auth .tmoh-aura,#auth .tmoh-night-stars,#auth .tmoh-deco-cloud,.tmoh-sky-portal,body.tmoh-entering #app{animation:none!important} .tmoh-sky-portal{display:none!important}}
+/* Shared credits retained on the login screen and on every application page. */
+.tmoh-credits{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;font-size:12px;line-height:1.9}
+.tmoh-credits span{padding:6px 11px;border:1px solid var(--line);background:var(--pale);border-radius:99px;white-space:normal}
+.tmoh-credits b{color:var(--blue)}
+.tmoh-credits-footer{margin:7px auto 0;font-size:11px}
+.tmoh-footer-brand{font-weight:800}
+#auth .authform .logo.mobile{display:none}
+@media(max-width:680px){#auth .tmoh-credits-auth{gap:6px;font-size:10px}}

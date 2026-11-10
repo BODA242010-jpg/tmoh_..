@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "description": "روابط منشورة إلى ملفات PDF على نطاق استضافة محتوى وزارة التعليم، نُقلت من فهارس عامة؛ لم يُتحقق من استجابة كل ملف مباشرة. لا توجد نسخ كتب مستضافة داخل طموح. بقية الصفوف تستخدم البوابة الرسمية وفهرس تصفح مساعد.",
+  "academicYear": "2026-2027",
+  "verifiedDownloadCount": 0,
+  "linkSource": "https://t.me/s/Shima_Hekal?before=10478",
+  "books": [
+    {
+      "id": "pub-sec2-religion-islam",
+      "grade": 4,
+      "subject": "التربية الدينية الإسلامية",
+      "term": "1",
+      "title": "كتاب التربية الدينية الإسلامية — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Islamic_religion_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-religion-christ",
+      "grade": 4,
+      "subject": "التربية الدينية المسيحية",
+      "term": "1",
+      "title": "كتاب التربية الدينية المسيحية — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Christian_religion_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-arabic",
+      "grade": 4,
+      "subject": "اللغة العربية",
+      "term": "1",
+      "title": "كتاب اللغة العربية — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Arabic_language_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-arabic-story",
+      "grade": 4,
+      "subject": "اللغة العربية",
+      "term": "1",
+      "title": "كتاب اللغة العربية — قصة وا إسلاماه — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Arabic_language_Story_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-english",
+      "grade": 4,
+      "subject": "اللغة الإنجليزية",
+      "term": "1",
+      "title": "كتاب اللغة الإنجليزية — لغة أولى — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/English_language_2sec_t1.pdf"
+    },
+    {
+      "id": "pub-sec2-history",
+      "grade": 4,
+      "subject": "التاريخ",
+      "term": "1",
+      "title": "كتاب التاريخ — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/History_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-chem-ar",
+      "grade": 4,
+      "subject": "الكيمياء",
+      "term": "1",
+      "title": "كتاب الكيمياء — عربي — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Chemistry_Arabic_2_Secondary_TR1.pdf"
+    },
+    {
+      "id": "pub-sec2-chem-en",
+      "grade": 4,
+      "subject": "الكيمياء",
+      "term": "1",
+      "title": "كتاب الكيمياء — English — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/chemistry_English_Sec2_TR1.pdf"
+    },
+    {
+      "id": "pub-sec2-chem-fr",
+      "grade": 4,
+      "subject": "الكيمياء",
+      "term": "1",
+      "title": "كتاب الكيمياء — Français — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/chemistry_FR_Sec2_TR1.pdf"
+    },
+    {
+      "id": "pub-sec2-physics-ar",
+      "grade": 4,
+      "subject": "الفيزياء",
+      "term": "1",
+      "title": "كتاب الفيزياء — عربي — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Physics_Arabic_2_Secondary_TR1.pdf"
+    },
+    {
+      "id": "pub-sec2-physics-en",
+      "grade": 4,
+      "subject": "الفيزياء",
+      "term": "1",
+      "title": "كتاب الفيزياء — English — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Physics_EN_Secondary2_TR1.pdf"
+    },
+    {
+      "id": "pub-sec2-physics-fr",
+      "grade": 4,
+      "subject": "الفيزياء",
+      "term": "1",
+      "title": "كتاب الفيزياء — Français — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Physics_F_Secondary2_TR1.pdf"
+    },
+    {
+      "id": "pub-sec2-geography",
+      "grade": 4,
+      "subject": "الجغرافيا",
+      "term": "1",
+      "title": "كتاب الجغرافيا — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Geography_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-psychology",
+      "grade": 4,
+      "subject": "علم النفس",
+      "term": "1",
+      "title": "كتاب علم النفس والاجتماع — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Psychologyand_sociology_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-ict-ar",
+      "grade": 4,
+      "subject": "الكمبيوتر وتكنولوجيا المعلومات والاتصالات",
+      "term": "1",
+      "title": "كتاب الكمبيوتر وتكنولوجيا المعلومات — عربي — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/ICT_AR_SEC2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-ict-en",
+      "grade": 4,
+      "subject": "الكمبيوتر وتكنولوجيا المعلومات والاتصالات",
+      "term": "1",
+      "title": "كتاب الكمبيوتر وتكنولوجيا المعلومات — English — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/ICT_En_SEC2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-pure-math-ar",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات البحتة — عربي — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/pure_Mathematics_ARABIC_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-pure-math-en",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات البحتة — English — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/pure_Mathematics_ENGLISH_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-pure-math-fr",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات البحتة — Français — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/pure_Mathematics_FR_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-applied-math-ar",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات التطبيقية — عربي — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Application_Mathematics_AR_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-applied-math-en",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات التطبيقية — English — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Application_Mathematics_EN_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-applied-math-fr",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات التطبيقية — Français — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Application_des_Mathematiques_FR_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-general-math-ar",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات العامة — القسم الأدبي — عربي — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/General_Mathematics_ARABIC_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-general-math-en",
+      "grade": 4,
+      "subject": "الرياضيات",
+      "term": "1",
+      "title": "كتاب الرياضيات العامة — القسم الأدبي — English — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/General_Mathematics_ENGLISH_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-french",
+      "grade": 4,
+      "subject": "اللغة الفرنسية",
+      "term": "1",
+      "title": "كتاب اللغة الفرنسية — لغة ثانية — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Une_deuxieme_langue_francaise_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-spanish",
+      "grade": 4,
+      "subject": "اللغة الإسبانية",
+      "term": "1",
+      "title": "كتاب اللغة الإسبانية — لغة ثانية — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Espanol_language_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-german",
+      "grade": 4,
+      "subject": "اللغة الألمانية",
+      "term": "1",
+      "title": "كتاب اللغة الألمانية — لغة ثانية — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Deutsch_language_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec2-italian",
+      "grade": 4,
+      "subject": "اللغة الإيطالية",
+      "term": "1",
+      "title": "كتاب اللغة الإيطالية — لغة ثانية — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry2/Term1/StudentBook/Italiano_language_Sec2_Tr1.pdf"
+    },
+    {
+      "id": "pub-sec3-physics-ar",
+      "grade": 5,
+      "subject": "الفيزياء",
+      "term": "1",
+      "title": "كتاب الفيزياء — عربي — الفصل الأول",
+      "edition": "2026-2027",
+      "source": "رابط على نطاق محتوى وزارة التعليم؛ فتح الملف لم يُختبر مباشرة",
+      "url": "https://elearnningcontent.blob.core.windows.net/elearnningcontent/2026_2027/Secondry/Secondry3/Term1/StudentBook/Physics_Arabic_Sec3.pdf"
+    }
+  ]
+}
